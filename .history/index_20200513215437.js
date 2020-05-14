@@ -1,5 +1,5 @@
 // Code your solution here
-// const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
+const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(drivers, car) {
     return drivers.filter(match => 
@@ -12,9 +12,4 @@ function fuzzyMatch(drivers, sup ){
     return drivers.filter(matchingLetters =>
         matchingLetters.toLowerCase().indexOf(sup.toLowerCase()) === 0)
 
-}
-
-
-function matchName(drivers, hey){
-    return drivers.filter( record => record.name === drivers)
 }
